@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="graphics.css">
+</head>
+
+<body>
+
+  
+  <center>
+    <h2>
+      <img class="game_name" src="pics/name.png">
+    </h2>
+  </center>
+
+  <center>
+  <div class="center">
+    <box>
+      <!--html canvas set-->
+      <canvas id="myCanvas" width="500" height="500" style="border: 5px solid"></canvas>
+    </box>
+
+    <box>
+      <!--html showing info-->
+      <div class="info">
+        <p>Score:</p>
+        <p id="score">--</p>
+        <p>Lives:</p>
+        <p id="lives">--</p>
+      </div>
+    </box>
+  </div>
+  </center>
+</body>
+
+  <!--script that runs the game by evry press -->
+  <script src="game.js"></script>
+
+  </body>
+
+</html>
